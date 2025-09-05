@@ -1,6 +1,6 @@
 """
 Author: Rafael A Castro
-Website: www.castron.com
+Website: www.castron.org
 Project: Digital Logic, Embedded, & Firmware - Physics
 AS7341 Spectrometer Real-Time Plot
 Open Source - Contributions Welcome :)
@@ -113,3 +113,4 @@ def update(frame):
 ani = animation.FuncAnimation(fig, update, interval=50, blit=False)
 plt.show()
 ser.close()
+
